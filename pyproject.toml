@@ -1,0 +1,17 @@
+[project]
+name = "marketpulse"
+version = "0.1.0"
+description = "Real-Time Market Intelligence & Analytics Platform"
+requires-python = ">=3.12"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "python-dotenv"
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "httpx2",
+]
